@@ -32,7 +32,7 @@ This app provides real-time data, charts, and allows users to manage their favor
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/crypto_market.git
+   git clone https://github.com/amir2596/crypto_market.git
    flutter pub get
    flutter run
 
