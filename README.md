@@ -1,17 +1,38 @@
-# crypto_dashboad
+# 📈 Live Crypto Market App
 
-A new Flutter project.
+A beautiful and high-performance cryptocurrency tracking app built with **Flutter**.
+This app provides real-time data, charts, and allows users to manage their favorite coins locally.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Real-time Prices:** Fetches live data from CoinGecko API.
+- **Interactive Charts:** 7-day sparkline charts for price trends.
+- **Watchlist System:** Save your favorite coins locally (Persisted data).
+- **Dark/Light Mode:** Full theme support with a toggle switch.
+- **Search Functionality:** Filter coins by name or symbol instantly.
+- **Auto-Refresh:** Data updates automatically every 30 seconds.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Framework:** Flutter & Dart
+- **State Management:** Provider
+- **Networking:** http
+- **Local Storage:** shared_preferences
+- **UI Components:** chart_sparkline, cached_network_image, google_fonts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Light Mode | Dark Mode | Details Screen |
+|:---:|:---:|:---:|
+| ![Light](link_to_image_1) | ![Dark](link_to_image_2) | ![Detail](link_to_image_3) |
+*(Note: Upload your screenshots to the repo and replace links above)*
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/crypto_market.git
+   flutter pub get
+   flutter run
+
+If you found this project helpful, give it a ⭐️!
